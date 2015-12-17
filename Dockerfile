@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM debian:jessie
+MAINTAINER Logan Attwood <logan@jnickel.com>
 
 ADD . /bd_build
 
