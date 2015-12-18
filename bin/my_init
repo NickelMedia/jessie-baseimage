@@ -260,9 +260,6 @@ def main(args):
 	import_envvars(False, False)
 	export_envvars()
 
-	if args.enable_insecure_key:
-		install_insecure_key()
-
 	if not args.skip_startup_files:
 		run_startup_files()
 
